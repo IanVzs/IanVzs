@@ -2,11 +2,11 @@
 
 
 <h1 align="center">
-  <a href="https://www.mongona.com/" target="_blank">
+  <a href="https://ianvzs.gitee.io/" target="_blank">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D838F7&width=435&lines=Have+A+Nice+Day!" alt="Typing SVG"  align="center"/>  </a>
 </h1>
 
-- 🔭 I’m now working for [QFPay](http://www.qfpay.com).
+- 🔭 I’m now working for [xmsociety](https://github.com/xmsociety/).
 - 🌱 I’m a pupil of back-end learning. 
 - 🤔 I’m currently coding in Golang, Python, Clang and a little Vue.
 - 💬 Be free to ask me about anything [here](https://github.com/IanVzs/IanVzs/issues).
