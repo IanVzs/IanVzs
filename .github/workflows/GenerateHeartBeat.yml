@@ -13,17 +13,16 @@ on:
         required: false
 
 env:
-  # change env here
-  GITHUB_NAME: x931890193
-  GITHUB_EMAIL: ysudqfs@163.com
+  GITHUB_NAME: ${{ secrets.PROFILE_COMMIT_NAME }}
+  GITHUB_EMAIL: ${{ secrets.PROFILE_COMMIT_EMAIL }}
 
 jobs:
   sync:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: '>=1.17.0'
       - run: go version
@@ -36,5 +35,5 @@ jobs:
           git add assets/heart.svg
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git config --local user.name "${{ env.GITHUB_NAME }}"
-          git commit -a -m 'update new heart ❤️' || echo "nothing to commit"
+          git commit -a -m 'chore: update heart svg' || echo "nothing to commit"
           git push || echo "nothing to push"

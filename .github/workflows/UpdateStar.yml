@@ -1,4 +1,4 @@
-name: x 个 star y 个 fork
+name: Update profile star and fork badge
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
         uses: ouuan/This-repo-has-x-stars-y-forks-action@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          template: "x931890193's readme profile with <starCount> stars and <forkCount> forks 🎉"
+          template: "IanVzs's profile README with <starCount> stars and <forkCount> forks"
